@@ -1,4 +1,7 @@
 {
   "name": "musicstory/sdk-php-api",
-  "description": "PHP-SDK to use API Music Story"
+  "description": "PHP-SDK to use API Music Story",
+  "autoload": {
+        "classmap": ["MusicStoryAPI.class.php"]
+  }
 }
